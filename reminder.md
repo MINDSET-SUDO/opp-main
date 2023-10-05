@@ -279,6 +279,133 @@ processes that the object should carry out include making an appointment checkin
 inheritance 
 
 polymorphism
+
+## aspecs of object oriented
+
+### Architecture-centric
+means that the underlying software architecture of the evolving system specification,construction and documentation of thw system
+
+### iterative and incremental aspects 
+
+continous testing and refinement throughout the life of the project
+
+### benefits of OOSAD
+enable analyst to break a complex system to smaller managable modules 
+
+makes systems development easier t grasp,easier to share among members and easier to communicate with the users 
+
+by creating modules the project team is creating resuable pieces that can be plugged into the other systens hence saving time
+
+### the unified process
+maps out on how to use various unified modeling language techniques 
+
+phases are inception,elaboration ,construction and transition 
+
+### phases of the unified process
+
+Describe how the system will evolve through time 
+  1.inception
+
+  similar to planning phase of traditional SDLC
+
+business case is proposed which includes feasibilty analysis
+
+primary deliverables from the inception phase are a vision doc
+
+2.elaboration 
+
+analysis and design workflows are the primary focus 
+deals with gatjering the requirements building the UML structural models and behavioural 
+
+developers are involved with the engineering deployment 
+
+3.construction 
+
+heavily focusing on programing the system 
+
+primarly concerned with the implentation work flow 
+
+missing requirements ar identified and analysis and design models are finally completed 
+
+during the last iteration deployment work flows kicks in 
+
+beta and acceptance testing 
+
+beta testing final round of testing before releasing of the final system
+
+4.transition
+
+similar to implentation phase 
+
+focus on testing and deployment workflows 
+
+
+### work flows 
+
+describe tasks and activities that a developer performs for the final product 
+
+categories :engineering and supporting
+
+* business model workflows - 
+
+uncovers problems and identifies potential projects within user organisation 
+
+purpose: 
+
+ensure that the developers and user orgainsation understand the project
+
+* requirements workflow
+
+idenfying functional and non fuctional requirements
+used mostly in  elaboration and inception phases 
+
+* analysis workflow 
+
+address the creation of an analysis model of the problem domain
+
+purpose: 
+
+helps user orgainzation and developer undertand underlying problem and its domain without overanalysing
+
+* Design workflow 
+
+tansition analysis model to form a design model after implementation
+
+enhaces the desccription of the evolving system by adding classes 
+
+* implentation workflow
+
+purpose:
+
+create an excutable solution based on design model 
+
+testing of classes i.e new and the incorparated resuable classes
+
+* testing workflow
+
+purpose :
+
+ to increase quality of the evolving system
+
+ * Deployment workflow
+
+ associated with the transition phase of the unified process 
+
+ includes activies such as software packaging
+
+ ### supporting workflows
+ 
+
+
+
+
+
+
+
+
+
+
+
 # Distributed systems
  cmt 308
  ## lecture 0ne
