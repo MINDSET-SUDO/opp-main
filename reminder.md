@@ -12,6 +12,7 @@ unified modelling language(uml) accelerated the change to system analysis and de
 challenges the way the current organization works
 
 **objective for a system analyst**
+
 to create value for the organisation hence increasing profits 
 
 ### The system development life cycle (SDLC)
@@ -26,7 +27,9 @@ fundamental process of understanding why a system should be build
  step one: of planning is identying system bussines value
 
 
- *system request* presents a brief summmary of business needs and explains how the system will increase business value
+ *system request* 
+ 
+ presents a brief summmary of business needs and explains how the system will increase business value
 
   step two: project management 
 
@@ -155,6 +158,10 @@ more stable and reliable systems
 
 focus is on the developers
 
+software is delivered earlier and continuously through out the entire process
+
+
+
 based on 12 principles ;they include:
 
 1.software is delivered early satisfying the customer
@@ -167,9 +174,9 @@ based on 12 principles ;they include:
 
 5.motivated individuals provide solutions 
 
-6.face to face communication within development time 
+6.face to face communication within development team
 
-7.primary measure of the progress
+7.primary measure of the progress is producing a work implemented software 
 
 8.customers and developers work at a pace that is timed 
 
@@ -177,21 +184,23 @@ based on 12 principles ;they include:
 
 10.technical excellence 
 
-12.reflection from the development times to improve the end product
+12.reflection from the development teams to improve the end product
 
 *critics to agile methodology*
 
 1.business premises
 
-2.if not carefully managed by definition its not 
+2.if not carefully managed by definition its not (programmers go wild environment )
 
-3.large mission critical systems solutions 
+3.lcan not deliver large mission critical systems solutions 
+
+4.without sufficient documents project is not assured 
 
 **based on agile**
 
 scrum and extreme programming 
 
-*1a.extreme programming* founded on 4 core values 
+*1a.extreme programming* founded on 4 core values;communication simplicity feedback and courage 
 
 comments on various systems of the code
 
@@ -200,6 +209,14 @@ recommended for small groups of developers
 large systems build with extreme programming become hard to maintain
 
 can not handle mission  critical business enterprises
+
+**strengths**
+
+programmers works closely with all stake holders
+
+continuous testing of the evolving system is encorage 
+
+
 
 *b.scrum programming*
 
@@ -215,17 +232,17 @@ non progress
 
 teams organize themselves 
 
-once iteration has began no addition of any other inputs
+once iteration has began no addition of any other inputs(requirements)
 
 scrum meeting takes place on each day,any block identified its dealt with  
 
-*limitation*
+*limitation/critisim*
 
-1.questionable since it cannot deal with mission critical systems 
+1.questionable since it cannot deal with large mission critical systems 
 
 2.not more than 7 members
 
-*key things to consider while selecting a methodology*
+**key things to consider while selecting a methodology**
 
 1.Clarity of user requirement(users need to interact with technology to give more reliable feed back )(RAD or AGILE is best sine  the users are involved )
 
@@ -268,19 +285,40 @@ project analyst
 
 x-stics of object oriented systems
 
-objects 
+1.focus on capturing structure and behavioural information systems 
 
-classes template define and create objects
 
-methods 
+2.objects and classes template used and create specific instances or  objects
 
-processes that the object should carry out include making an appointment checking last visit
+3.methods(action that an object can perform)and messages (procedure call from one object to another)
 
-inheritance 
+4.encapsulation(combination of data and processes into a single entity
+)
 
-polymorphism
+5.processes that the object should carry out include making an appointment checking last visit
 
-## aspecs of object oriented
+6.inheritance(placing attributes and methods that are common are placed in one class and inherited with the class below)
+
+7.message hiding (hides how the modules implements the entire functionally and gives out relevant information to the users)
+
+**abstract classes - classes that are used as templates for other specific classes**
+
+polymorphisims -
+messages is interprated differently by classes and objects 
+
+Dynamic binding - technique that delays typing the object utill run time 
+
+static binding - type of the object is determined at compile time 
+
+## aspects of object oriented
+
+### user case
+focuses on how the user interacts with the system 
+
+        use case - describes how the user is interacting with the system
+
+        user driven -use case are primarly modelling tools defining behaviour of the system 
+
 
 ### Architecture-centric
 means that the underlying software architecture of the evolving system specification,construction and documentation of thw system
@@ -304,6 +342,7 @@ phases are inception,elaboration ,construction and transition
 ### phases of the unified process
 
 Describe how the system will evolve through time 
+
   1.inception
 
   similar to planning phase of traditional SDLC
@@ -394,18 +433,154 @@ purpose :
  includes activies such as software packaging
 
  ### supporting workflows
+
+ * configuration and change management workflow
+
+purpose:
+
+ to track the state of the evloving system 
+
+* environment workflow 
+
+address the needs  
+
+### weakness of the unified modelling language 
+
+### The unified modelling language 
+
+### project identification
+### system request
+describes reaasons for building that system and provides the values the system will provide
+
+### feasibility analysis 
+helps the organisation determine the project risks and worth before completing the entire project 
+
+### technical feasiblity
+
+address the extent to which the system can be successfully designed ,developed and installed by the it group
+
+**risks involved in technical feasibiltyr**
+
+project size
+
+farmiliarity with the exsiting technology
+
+compatibility with the existing  technology
+
+### economic feasibilty
+
+also called **cost benefit analysis**
+
+attempts to answer the question should the system be build 
+
+calculates cash flow and returns on the investments
+
+### organisational feasibility
+
+determines how well the system will be accepted by the users and incorparated into ongoing operations of the organisations
+
+### project selection 
+
+commitee of stake holders (tend to have a portfolio of all projects in the organisation)
+
+***project management tools**
  
+             (make notes)
+
+### analysis modeling 
+
+answers the question who will use the system,what the system will do and when it will be used 
+
+fuctional model - usecase diagram,.activity models 
+
+**requirements determination**
+
+documents that list the new system capabilities
+**(requirement defination)**
+
+**System  proposal**
+
+purpose of requirements dtermination 
+
+is to put veryhigh level explanation of the business requirements 
+
+requirements can either be functional or  non fuctional 
+
+functional - operate from the information that has being gathered
+
+non functional - refer to behavioral properties a system should have. such as performance and usability 
+
+**software quality** differenciate between functional and non fuctional requirements 
+
+### determining requirements
+
+both a business and information technology tasks 
+
+### requirement analysis strategies
+
+divide into 3 steps 
+
+1.understanding  the system 
+
+2.identifying improvements 
+
+3.developing requirements 
+
+**techniques include**
+
+1.problem analysis
+
+2.root cause analysis(focuses on the problem to provide a solution ) 
+
+            challenges the obvious i.e focusing on a bigger problem 
+
+3.duration analysis
+
+        determines the total amount it takes to do operations on an activity
 
 
+    process intergration 
+          changing the process so that fewer people can work on the input
+
+    process parallization 
+         changing the process so  that all activities can be done at the same time 
+
+4.activity based costing 
+   examines the cost of each major project
 
 
+5.informal benchmarking 
+
+      reviewing other organisation perform business process in order to learn how the organizaton can do better
 
 
+6.outcome analysis
+  
+     focuses on understanding the fundamental 
+
+7.technology analysis  
+
+    developing a list of important technology to an organization 
 
 
+8.Activity Elimination 
+    
+    analysts and managers work together to eliminate activities and processes that the system can work without(review of the process )
 
+# ASSIGNMENT 
+READ AND MAKE NOTES ON REQUIREMENTS GATHERING TECHNIQUES 
 
+SUBMIT BY 24TH OCTOBER 2023
 
+INTERVIEWS(THE PROCESS,3 TYPES OF QUESTIONS AND QUESTIONING STRATEGIES)
+
+JOINT APPLICATION DEVELOPMENT(PROCESS OF JAD)
+
+QUESTIONNAIRES
+
+DOCUMENT ANALYSIS
+
+OBSERVATION 
 # Distributed systems
  cmt 308
  ## lecture 0ne
@@ -769,3 +944,90 @@ data elements are not arranged in a sequential order
 there is hierachical relationship between data items 
 
 insertion and deletion of data is not possible examples include Tree and Graph 
+
+### CMT 314 :MOBILE APPLICATION DEVELOPMENT
+
+Remote services  is accessed remotely from other applications 
+
+examples of remote services:
+
+content providers 
+
+are used to share data between the applications 
+
+fragments are like parts of an activity 
+
+An activity displays one or more fragments on the screen at the same time.
+
+**THE ANDROID MANIFEST .XML**
+
+contains information about an activity, content providers permissions etc 
+
+its like the web.xml file in java ee(enterprise edition)
+
+example "HELLO WORLD"
+
+android applications contains different components such as java source code,string resources ,images,manifest file,APK file etc 
+
+mainactivity.java(java source )
+
+r.java(generated r.java)
+
+bin contains APK file
+
+res 
+   >>drawable.ldpi
+
+   >>activity_main.xml
+
+   >>string.xml
+    
+android manifest.xml(Manifest)
+
+java source code (file to use = main activity.java)
+
+(space )
+
+has a package 
+      
+      import 
+
+      view menu
+
+      widget 
+
+
+**1.Activity**
+
+activity is a java class that creates the default window on the screen where you can place different components such as Button,EDIT texts,Text VieW,Spinner
+
+provides life cyle methods for the activity such as onCreate,onStop,onResume etc
+
+**2.The OnCreate method**
+
+Is called when activity class is first created 
+
+**3.setContent View (R.layout.ctivity main)**
+
+gives information about the layout resource file
+
+
+here layout resources are defined in the activity_main.xml file 
+
+strings.xml
+
+its the auto generated file that contains the 
+
+        **The R.java file**
+
+         **APK FILE**
+
+              CFEATED  by the frame work automatically.if you want tok run tha application on mobile transfer it on the mobile.
+    
+    resources 
+     
+     it contains resource file including activity_main ,strings and files 
+
+    manifest file 
+
+    contains ionformation about package including components such activity services content providers and the core building blocks 
